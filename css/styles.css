@@ -1,0 +1,81 @@
+#header{
+	background-color: #e09a16;
+}
+
+#brandname>a{
+	color: #fff;
+	font-family: Oxygen;
+	font-weight: bolder;
+	text-shadow: 1px 1px 1px #000;
+	font-size: 3vw;
+}
+
+#footer{
+	background-color: #222;
+	opacity: .6;
+}
+
+#footer div{
+	color: #fff;
+}
+
+#main-content>img{
+    background-size: cover;
+    box-shadow: 5px #222;
+}
+
+body{
+	background-color: #fce37c;
+}
+
+#main-image{
+	margin-bottom: 20px;
+}
+
+#main-image,#gk,#tech,#apt{
+	 
+}
+
+#gk,#tech,#apt{
+	border:2px solid #fce37c;
+	padding-right: 10px 10px 10px 10px;
+	float: left;
+	width: 33.33%;
+	height: 250px;
+	position: relative;	
+	}
+
+#gk{
+	background: url("../images/image(2).jpg") no-repeat;
+	background-position: center;
+}
+#tech{
+	background: url("../images/image(2).jpg") no-repeat;
+	background-position: center;
+}
+#apt{
+	background: url("../images/image(2).jpg") no-repeat;
+	background-position: center;
+}
+
+#options>a:hover>div{
+    box-shadow: 5px 5px 5px #222;
+    background-color: #e09a16;
+}
+
+ #gk span,#tech span,#apt span{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 31px;
+    background-color: #222;
+    opacity: .8;
+    color:#fff;
+    text-align: center;
+}
+
+#options>a:hover>div>span{
+	font-weight: bold;
+}
+
