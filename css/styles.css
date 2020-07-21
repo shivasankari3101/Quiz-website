@@ -30,6 +30,10 @@ body{
 
 #main-image{
 	margin-bottom: 20px;
+	background:url("images/image(1).jpg");
+	background-position: center;
+	width: 80%;
+	height: 400px;
 }
 
 #main-image,#gk,#tech,#apt{
