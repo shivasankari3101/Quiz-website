@@ -99,7 +99,7 @@ body{
 	background:url("../images/image(1)_768.jpg") no-repeat;
 	height: 350px;
 	width: 550px;
-	margin-left: 70px;
+	margin-left: 40px;
     }
 }
 
@@ -108,7 +108,7 @@ body{
 	#main-image{
 	background:url("../images/image(1)_400.jpg") no-repeat;
 	height: 225px;
-	width: 350px;
-	margin-left: 10px;
+	width:350px;
+	margin-left: 0px;
     }
 }
