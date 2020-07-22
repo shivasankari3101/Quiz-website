@@ -110,5 +110,9 @@ body{
 	height: 225px;
 	width:320px;
 	margin-left: 0px;
-    }
+	}
+
+	#brandname>a{
+		font-size: 7vw;
+	}
 }
