@@ -117,7 +117,7 @@ body{
 	}
 }
 
-@media (max-width: 540px)
+@media (min-width: 401) and (max-width: 540px)
 {
 	#main-image{
 	background:url("../images/image(1)_768.jpg") no-repeat;
