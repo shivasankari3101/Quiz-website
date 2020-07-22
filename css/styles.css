@@ -116,3 +116,17 @@ body{
 		font-size: 7vw;
 	}
 }
+
+@media (max-width: 540px)
+{
+	#main-image{
+	background:url("../images/image(1)_768.jpg") no-repeat;
+	height: 350px;
+	width:500px;
+	margin-left: 0px;
+	}
+
+	#brandname>a{
+		font-size: 7vw;
+	}
+}
