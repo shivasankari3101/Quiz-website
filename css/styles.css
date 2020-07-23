@@ -115,6 +115,9 @@ body{
 	width:320px;
 	margin-left: 0px;
 	}
+	#gk,#tech,#apt{
+    width: 100%;
+    }
 
 	#brandname>a{
 		font-size: 7vw;
@@ -126,7 +129,7 @@ body{
 	#main-image{
 	background:url("../images/image(1)_768.jpg") no-repeat;
 	height: 350px;
-	width:80%;
+	width:500px;
 	margin-left: 0px;
 	}
 
