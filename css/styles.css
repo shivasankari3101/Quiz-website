@@ -126,6 +126,9 @@ body{
 	#gk,#tech,#apt{
     width: 100%;
     }
+     #gk span{
+     	height: 33px;
+     }
 
 	#brandname>a{
 		font-size: 7vw;
