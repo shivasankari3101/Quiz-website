@@ -19,13 +19,13 @@
 
     ajax.sendGetRequest = function(requestUrl,responseHandler){
     	var request=getRequestObject();
-    	var request.onreadystatechange =
+    	request.onreadystatechange =
     	function (){
     		handleResponse(request,responseHandler);
     	};
     	request.open("GET",requestUrl,true);
     	request.send(null);
-   	}
+   	};
 
    	function handleResponse (request,responseHandler){
        if((request.readystate==4) && (request.status==200)){
