@@ -1,4 +1,4 @@
-(function(global){
+(function (global){
 
 	var ajax={};
 
@@ -17,7 +17,8 @@
 		}
 	}
 
-    ajax.sendGetRequest = function(requestUrl,responseHandler){
+    ajax.sendGetRequest = 
+    function(requestUrl,responseHandler){
     	var request=getRequestObject();
     	request.onreadystatechange =
     	function (){
@@ -29,7 +30,7 @@
 
    	function handleResponse (request,responseHandler){
        if((request.readystate==4) && (request.status==200)){
-       	 return(request.responseText);
+       	 responseHandler(request);
        }
    	}
 
