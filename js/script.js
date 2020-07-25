@@ -8,17 +8,20 @@
 		
 	};
 
-document.addEventListener("DOMContentloaded" ,function(event){
+	var showLoading = function (selector) {
+  var html = "<div class='text-center'>";
+  html += "<img src='images/ajax-loader.gif'></div>";
+  insertHtml(selector, html);
+  };
+
+document.addEventListener("DOMContentLoaded" ,function(event){
+
 	$ajax.sendGetRequest(
     homehtmlUrl,
-    function (homeHtml) {
-			insertHtml("#main-content",homeHtml);
+    function (homehtml) {
+			insertHtml("#main-content",homehtml);
 
-	});
-     
-
-
-
+	})    
 });
 
 
