@@ -15,7 +15,7 @@
   };
 
 document.addEventListener("DOMContentLoaded" ,function(event){
-
+    showLoading("#main-content");
 	$ajax.sendGetRequest(
     homehtmlUrl,
     function (homehtml) {
