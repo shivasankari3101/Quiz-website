@@ -150,6 +150,10 @@ button{
     #brandname>a{
 		font-size: 5vw;
 	}
+
+	#head{
+		font-size: 5vw;
+	}
 }
 
 @media (max-width: 400px)
@@ -170,6 +174,10 @@ button{
 	#brandname>a{
 		font-size: 7vw;
 	}
+
+	#head{
+		font-size: 5vw;
+	}
 }
 
 @media (min-width: 401) and (max-width: 540px)
@@ -183,5 +191,9 @@ button{
 
 	#brandname>a{
 		font-size: 7vw;
+	}
+
+	#head{
+		font-size: 5vw;
 	}
 }
