@@ -35,7 +35,7 @@ body{
 	background-position: center;
 	
 	height: 350px;
-	box-shadow: 5px 5px 5px #e09a16;
+	box-shadow: 5px 5px 5px 5px#e09a16;
 	background-color: #fcf5f5;
 }
 
