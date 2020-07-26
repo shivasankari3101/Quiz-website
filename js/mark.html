@@ -22,20 +22,32 @@
   <label for="age2">31 - 60</label><br>  
   <input type="radio" id="age3" name="age" value="100">
   <label for="age3">61 - 100</label><br><br>
-  <input type="submit" value="Submit" onclick="display()">
+  <button type="button" onclick="display()">Submit</button> 
 </form>
-<p id="result"></p>
+<div id="result"></div>
 <script>
 var mark=0;
-console.log(mark);
-var display = function(){
-
+function display(){
+  var ele = document.getElementsByName("gender");
   
-    
-    document
-     .querySelector("#result")
-     .innerHTML="<h1>Mark is "+ mark + "</h1>";
-  }
+    if(ele[1].checked){
+      mark+=1;
+    }
+    else{
+      mark+=0;
+    }
+
+    var two = document.getElementsByName("age");
+
+    if(two[1].checked){
+      mark+=1;
+    }
+    else{
+      mark+=0;
+    }
+  document.querySelector("#result")
+          .textContent =mark;
+}
 
 </script>
 </body>

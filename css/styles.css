@@ -106,7 +106,7 @@ body{
 #head{
 	font-family: "Oxygen";
 	font-weight: bolder;
-	font-size: 4vw;
+	font-size: 3.5vw;
 	text-align: center;
 	text-shadow: 3px 3px 3px #fff;
 	margin-bottom: 40px;
@@ -132,6 +132,10 @@ button{
 
     #brandname>a{
 		font-size: 4vw;
+	}
+
+	#head{
+		font-size: 5vw;
 	}
 }
 
