@@ -49,7 +49,7 @@ qz.loadtechquiz =function(){
 qz.loadaptquiz =function(){
   
   $ajax.sendGetRequest(
-  	techquizUrl,
+  	aptquizUrl,
   	function(aptquiz){
   		insertHtml("#main-content",aptquiz);
   	})

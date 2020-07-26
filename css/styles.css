@@ -8,6 +8,7 @@
 	font-weight: bolder;
 	text-shadow: 1px 1px 1px #000;
 	font-size: 3vw;
+	text-decoration: none;
 }
 
 /*#footer{
@@ -86,13 +87,36 @@ body{
 }
 
 #gkquiz,#techquiz,#aptquiz{
-	box-shadow: 3px 3px 3px  #e09a16;
+	box-shadow: 3px 3px 3px 5px #e09a16;
 	background-color:  #fce37c;
 	opacity: 1.3;
 }
 
 #gkquiz>div,#techquiz>div,#aptquiz>div{
 	font-family: "Oxygen";
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+#gkquiz>div,#techquiz>div,#aptquiz>div,#gkquiz>input,#techquiz>input,#aptquiz>input{
+	margin-left: 8px;
+	font-size: 1.3em;
+}
+
+#head{
+	font-family: "Oxygen";
+	font-weight: bolder;
+	font-size: 4vw;
+	text-align: center;
+	text-shadow: 3px 3px 3px #fff;
+	margin-bottom: 40px;
+	box-shadow: 3px 3px 3px 5px #e09a16;
+	background-color:  #fce37c;
+	opacity: 1.3;
+}
+
+button{
+	margin-top: 30px;
 	font-weight: bold;
 }
 
