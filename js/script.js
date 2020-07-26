@@ -19,7 +19,7 @@
   };
 
 document.addEventListener("DOMContentLoaded" ,function(event){
-    showLoading("#main-content");
+    
 	$ajax.sendGetRequest(
     homehtmlUrl,
     function (homehtml) {
@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded" ,function(event){
 });
 
 qz.loadgkquiz =function(){
-  showLoading("#main-content");
+ 
   $ajax.sendGetRequest(
   	gkquizUrl,
   	function(gkquiz){
@@ -38,7 +38,7 @@ qz.loadgkquiz =function(){
 }
 
 qz.loadtechquiz =function(){
-  showLoading("#main-content");
+ 
   $ajax.sendGetRequest(
   	techquizUrl,
   	function(techquiz){
@@ -47,7 +47,7 @@ qz.loadtechquiz =function(){
 }
 
 qz.loadaptquiz =function(){
-  showLoading("#main-content");
+  
   $ajax.sendGetRequest(
   	techquizUrl,
   	function(aptquiz){
