@@ -183,6 +183,10 @@ button{
 	#head{
 		font-size: 5vw;
 	}
+
+	#result>h1{
+		font-size: 30px;
+	}
 }
 
 @media (min-width: 401) and (max-width: 540px)
@@ -201,6 +205,7 @@ button{
 	#head{
 		font-size: 5vw;
 	}
+
 }
 
 #result{
