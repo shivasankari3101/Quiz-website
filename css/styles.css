@@ -163,6 +163,8 @@ button{
 
 
 
+
+
 @media (max-width: 400px)
 {
 	#main-image{
@@ -215,4 +217,28 @@ button{
 
 #result>h1{
 	padding-top: 50px;
+}
+
+
+#header>button{
+   border:1px solid #916004 ;
+   background-color: #fce37c;
+}
+
+#nav-list{
+	margin-top: 50px;
+
+}
+
+#nav-list>li{
+	background-color: #fce37c;
+	border:1px solid #916004 ;
+	color: ##916004;
+	font-weight: bold;
+}
+
+#nav-list>li>a:hover{
+	background-color:#916004 ;
+	color: #fce37c;
+	font-weight: bold;
 }

@@ -11,8 +11,27 @@
 <body>
 <div id="header" class="navbar navbar-default">
 	<div  id="brandname" class="navbar-brand"><a href="index.html">QUIZ BUZZ</a></div>
+
+	<button type="button" class="navbar-toggle collapsed" id="navbar-Toggle" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+     <div class="collapse navbar-collapse" id="navigation">
+      <ul class="nav navbar-nav" id="nav-list">
+		<li><a href="index.html" class="visible-xs"><span>Home</span></a></li>
+		<li><a href="#" onclick="$qz.loadgkquiz()" class="visible-xs"><span>GK quiz</span></a></li>
+		<li><a href="#" onclick="$qz.loadtechquiz()" class="visible-xs"><span>Technical quiz</span></a></li>
+		<li><a href="#" onclick="$qz.loadaptquiz()" class="visible-xs"><span>Aptitude quiz</span></a></li>
+
+	</ul>
+</div>
 </div>
 <div id="main-content" class="container"></div>
+
+
 
 <!--<div id="footer" class="panel-footer">
 	<div class="container">
@@ -27,5 +46,8 @@
 <script src="js/bootstrap.min.js"></script>
 <script src="js/ajaxUtils.js"></script>
 <script src="js/script.js"></script>
+
+
+
 </body>
 </html>
