@@ -143,8 +143,8 @@ button{
 {
 	#main-image{
 	background:url("../images/image(1)_768.jpg") no-repeat;
-	height: 350px;
-	width: 550px;
+	height: 322px;
+	width:500px;
 	margin-left: 40px;
     }
 
@@ -160,6 +160,8 @@ button{
 		font-size: 5vw;
 	}
 }
+
+
 
 @media (max-width: 400px)
 {
@@ -189,24 +191,7 @@ button{
 	}
 }
 
-@media (min-width: 401) and (max-width: 540px)
-{
-	#main-image{
-	background:url("../images/image(1)_768.jpg") no-repeat;
-	height: 350px;
-	width:500px;
-	margin-left: 0px;
-	}
 
-	#brandname>a{
-		font-size: 7vw;
-	}
-
-	#head{
-		font-size: 5vw;
-	}
-
-}
 
 #result{
 	font-family: Lora;
