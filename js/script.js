@@ -1,5 +1,26 @@
+$(function(){
+	$("navbar-Toggle").blur(function(event){
+		var screenWidth=window.innerWidth;
+		if(screenWidth<768){
+			$("#menu").collapse("hide");
+		}
+		});
 
-(function (global){
+	$("#navbar-Toggle").click(function(event){
+	$(event.target).focus();
+})
+});
+
+
+
+
+
+
+
+
+
+
+	(function (global){
 	qz={};
 
 	var homehtmlUrl="snippets/home-snippet.html";
